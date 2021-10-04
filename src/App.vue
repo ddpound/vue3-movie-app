@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <Header />  
   <RouterView />
 </template>
 
@@ -8,8 +8,12 @@ import Header from '~/components/Header'
 
 export default {
     components:{
-        Header
+      Header
     }
+      
+    
+        
+    
 }
 </script>
 

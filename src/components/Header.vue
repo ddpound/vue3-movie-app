@@ -14,6 +14,9 @@
         </RouterLink>
       </div>
     </div>
+    <div class="sidebar">
+      Sidebar
+    </div>
   </header>
 </template>
 
@@ -54,5 +57,11 @@ header{
   .logo{
     margin-right: 40px;
   }
+}
+
+.sidebar{
+  width: 90px;
+  height: 100%;
+
 }
 </style>
