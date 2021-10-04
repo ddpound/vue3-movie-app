@@ -14,9 +14,6 @@
         </RouterLink>
       </div>
     </div>
-    <div class="sidebar">
-      Sidebar
-    </div>
   </header>
 </template>
 
@@ -50,7 +47,10 @@ export default {
 
 <style lang="scss" scoped>
 header{
+  background-color: black;
+  position: fixed;
   height: 70px;
+  width: 100%;
   padding: 0 40px;
   display: flex; /* 수직정렬 */
   align-items: center; /* 아이템 가운데 정렬 */
@@ -59,9 +59,4 @@ header{
   }
 }
 
-.sidebar{
-  width: 90px;
-  height: 100%;
-
-}
 </style>

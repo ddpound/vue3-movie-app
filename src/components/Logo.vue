@@ -2,7 +2,7 @@
   <RouterLink
     to="/" 
     class="logo">
-    <span>POPCORN</span>.COM
+    <span>POPCORNGACK</span>.COM
   </RouterLink>
 </template>
 
@@ -13,15 +13,16 @@
 .logo{
     font-family: "Oswald" sans-serif;
     font-size: 20px;
-    color: $black;
+    color: white;
     text-decoration: none;
     &:hover {
-        color: $black;
+        color: gray;
     }
     /* 폰트 이름은 모두 "" 이렇게 묶는걸 추천*/
     span{
         color: $primary;
     }
+
 }
 </style>
 
