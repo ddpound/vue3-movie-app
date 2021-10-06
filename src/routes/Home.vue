@@ -5,7 +5,7 @@
 
 
 <script>
-import Headline from '~/components/Headline';
+import Headline from '~/components/Headline'
 import Sidebar from '~/components/Sidebar'
 
 

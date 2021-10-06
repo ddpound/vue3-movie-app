@@ -7,25 +7,28 @@
         v-for="nav in navigations"
         :key="nav.name" 
         class="nav-item">
-        <RouterLink 
+        <RouterLink
           :to="nav.href"
-          active-class="active" 
+          active-class="active"
           class="nav-link">
           {{ nav.name }}
         </RouterLink>
       </div>
     </div>
+    <Userimage />
   </header>
 </template>
 
 <script>
 import Logo from '~/components/Logo'
 import Search from '~/components/Search'
+import Userimage from '~/components/UserImage'
 
 export default {
   components: {
     Logo,
-    Search
+    Search,
+    Userimage
   },
     data(){
         return{
@@ -60,6 +63,9 @@ header{
   align-items: center; /* 아이템 가운데 정렬 */
   .logo{
     margin-right: 40px;
+  }
+  .nav{
+    width: 20%;
   }
 }
 

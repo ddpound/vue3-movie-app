@@ -12,7 +12,7 @@
 
 .logo{
     font-family: "Oswald" sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     &:hover {

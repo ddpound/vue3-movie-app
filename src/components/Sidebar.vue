@@ -15,10 +15,10 @@
 @import "~/scss/main";
 
 .sidebar{
-  background-color: indianred;
+  background-color: rgb(94, 0, 0);
   color: $primary;
   margin-top: 70px;
-  width: 10%;
+  width: 9%;
   height: 100%;
   position: fixed;
 }
