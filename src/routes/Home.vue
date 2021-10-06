@@ -1,8 +1,9 @@
 <template>
-  <Sidebar />
-  <Headline />
+  <div>
+    <Sidebar />
+    <Headline />
+  </div>
 </template>
-
 
 <script>
 import Headline from '~/components/Headline'
@@ -17,4 +18,10 @@ export default {
 
 }
 </script>
+
+<style lang="scss" scoped>
+div{
+  display: flex;
+}
+</style>
 

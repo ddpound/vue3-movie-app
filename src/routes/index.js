@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from './Home'
 import Movie from './Movie'
 import About from './About'
+import ReservationR from './ReservationRanking'
 
 export default createRouter({
     // Hash mode, History Mode
@@ -23,6 +24,10 @@ export default createRouter({
         {
             path: '/about',
             component: About
+        },
+        {
+            path: '/ReservationR',
+            component: ReservationR
         }
     ]
 })
