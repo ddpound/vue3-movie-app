@@ -3,7 +3,9 @@
     sidebar
     <div>
       홈,<br />
-      탐색
+      영화랭킹<br />
+      예매순위 <br />
+      박스오피스 <br />
     </div>
   </div>
 </template>
@@ -13,7 +15,7 @@
 @import "~/scss/main";
 
 .sidebar{
-  background-color: gray;
+  background-color: indianred;
   color: $primary;
   margin-top: 70px;
   width: 10%;

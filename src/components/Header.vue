@@ -1,6 +1,7 @@
 <template>
   <header>
     <Logo />
+    <Search />
     <div class="nav nav-pills">
       <div
         v-for="nav in navigations"
@@ -19,9 +20,12 @@
 
 <script>
 import Logo from '~/components/Logo'
+import Search from '~/components/Search'
+
 export default {
   components: {
-    Logo
+    Logo,
+    Search
   },
     data(){
         return{

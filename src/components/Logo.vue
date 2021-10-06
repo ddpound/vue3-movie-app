@@ -2,7 +2,7 @@
   <RouterLink
     to="/" 
     class="logo">
-    <span>POPCORNGACK</span>.COM
+    <span>POPCORNGAK</span>.COM
   </RouterLink>
 </template>
 
